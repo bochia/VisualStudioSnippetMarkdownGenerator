@@ -16,7 +16,7 @@ string[] snippetFilePaths = new string[]
 
 
 string xmlNamespace = "http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet";
-StringBuilder stringBuilder = new StringBuilder();
+StringBuilder stringBuilder = new();
 
 foreach (string snippetFilePath in snippetFilePaths)
 {

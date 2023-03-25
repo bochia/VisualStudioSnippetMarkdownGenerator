@@ -8,10 +8,10 @@ using SnippetMarkdownGenerator.Services.Interfaces;
 
 string[] snippetFilePaths = new string[]
 {
-    @"C:\Users\ochiab\Downloads\code snippets\CollectionSnippets.snippet",
-    @"C:\Users\ochiab\Downloads\code snippets\CommonCodeSnippets.snippet",
-    @"C:\Users\ochiab\Downloads\code snippets\DefensiveCodeSnippets.snippet",
-    @"C:\Users\ochiab\Downloads\code snippets\TestSnippets.snippet"
+    @"C:\Users\dummyUsername\Downloads\code snippets\CollectionSnippets.snippet",
+    @"C:\Users\dummyUsername\Downloads\code snippets\CommonCodeSnippets.snippet",
+    @"C:\Users\dummyUsername\Downloads\code snippets\DefensiveCodeSnippets.snippet",
+    @"C:\Users\dummyUsername\Downloads\code snippets\TestSnippets.snippet"
 };
 
 

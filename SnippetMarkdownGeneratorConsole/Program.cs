@@ -6,14 +6,15 @@ using SnippetMarkdownGenerator.Services.Interfaces;
 //TODO: order snippets alphabetically when generating documenation.
 //TODO: Look into using a T4 template instead.
 
+string username = Environment.UserName;
+
 string[] snippetFilePaths = new string[]
 {
-    @"C:\Users\dummyUsername\Downloads\code snippets\CollectionSnippets.snippet",
-    @"C:\Users\dummyUsername\Downloads\code snippets\CommonCodeSnippets.snippet",
-    @"C:\Users\dummyUsername\Downloads\code snippets\DefensiveCodeSnippets.snippet",
-    @"C:\Users\dummyUsername\Downloads\code snippets\TestSnippets.snippet"
+    @$"C:\Users\{username}\Downloads\code snippets\CollectionSnippets.snippet",
+    @$"C:\Users\{username}\Downloads\code snippets\CommonCodeSnippets.snippet",
+    @$"C:\Users\{username}\Downloads\code snippets\DefensiveCodeSnippets.snippet",
+    @$"C:\Users\{username}\Downloads\code snippets\TestSnippets.snippet"
 };
-
 
 string xmlNamespace = "http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet";
 StringBuilder stringBuilder = new();
